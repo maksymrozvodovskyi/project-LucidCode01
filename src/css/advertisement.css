@@ -20,7 +20,7 @@
     display: block;
     color: #fbfbfb;
     background-color: #576f35;
-    border-radius: 9px;
+    border-radius: 12px;
 }
 
 @media (min-width: 768px) {
@@ -29,9 +29,11 @@
         
     }
     .acent {
+        display: flex;
         width: 675px;
         height: 86px;
         border-radius: 12px;
+        align-items: flex-end;
     }
     .advert {
         font-size: 64px;
@@ -53,7 +55,7 @@
     }
     .advert {
         font-size: 76px;
-        width: 1054px;
+        width: 1080px;
         height: 228px;
     }
 }
