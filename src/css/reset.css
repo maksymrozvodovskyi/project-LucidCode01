@@ -31,4 +31,13 @@ button {
   font-family: inherit;
   color: currentColor;
 }
-/* #endregion */
+
+input {
+  font-family: inherit;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
