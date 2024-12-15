@@ -16,7 +16,6 @@
     margin: 0;
 }
 .advert {
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.08;
@@ -56,25 +55,25 @@
 
 @media (min-width: 1280px) {
     .advertisement {
-        padding: 100px;   
+        padding: 100px 100px 100px 116px; 
+          
     }
     .advert {
-        display: inline-block;
         font-size: 76px;
         width: 1054px;
         height: 228px;
     }
     .advert-accent {
         display: inline-flex;
-        width: 809px;
+        align-items: center;
+        width: 824px;
         height: 84px;
-        padding-top: 4px;
         padding-left: 16px;
-        margin-left: -16px;
+        margin-left: -20px;
     }
     .advert-text {
         padding-left: 16px;
-        margin-left: -16px;   
+        margin-left: -20px;   
     }
     
 }
