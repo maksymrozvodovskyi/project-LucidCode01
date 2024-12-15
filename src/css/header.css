@@ -33,7 +33,7 @@ height: 16px; ;
 
 
 
-.header-list {
+/* .header-list {
    
 }
 
@@ -41,7 +41,7 @@ height: 16px; ;
 
 .header-link {}
 
-.header-button {}
+.header-button {} */
 
 
 
@@ -116,9 +116,9 @@ height: 52px;
     gap: 8px;
 }
 
-.header-item {
+/* .header-item {
 
-}
+} */
 
 .header-link {
     
