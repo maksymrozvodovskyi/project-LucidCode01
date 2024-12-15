@@ -10,49 +10,76 @@
         today and start enjoying the best that nature has to offer!
       </p>
     </div>
-    <div class="form-connect">
-      <form class="form-feedback">
-        <p class="form-desc">
-          Ordering <span class="form-desc-fr">from us</span> is quick and easy!
-          Fill out <span class="form-desc-th">the form</span>
-          below and we will contact you !
-        </p>
 
-        <div class="form-input">
-          <input class="form-input-name" type="text" placeholder="Full Name" />
-          <input class="form-input-email" type="email" placeholder="Email" />
-          <textarea
-            class="form-textarea"
-            row="3"
-            placeholder="Comment"
-          ></textarea>
-          <button class="btn-order" type="submit">Send</button>
-        </div>
-      </form>
-    </div>
-    <div class="soc-networks">
-      <div class="photo-soc">
-        <picture>
-          <source
-            media="(min-width:1280px)"
-            srcset="img/order/picdes@1x.jpg 1x, img/order/picdes@2x.jpg 2x"
-          />
-          <source
-            media="(min-width:768px)"
-            srcset="img/order/pictab@1x.jpg 1x, img/order/pictab@2x.jpg 2x"
-          />
-          <source
-            media="(max-width:767px)"
-            srcset="
-              img/order/Rectangle42473mob@1x.jpg 1x,
-              img/order/Rectangle42473mob@2x.jpg 2x
-            "
-          />
-          <img src="src/img/order/Rectangle42473mob@1x.jpg" alt="girl" />
-        </picture>
+    <div class="form-soc">
+      <div class="form-connect">
+        <form class="form-feedback">
+          <p class="form-desc">
+            Ordering <span class="form-desc-fr">from us</span> is quick and
+            easy! Fill out <span class="form-desc-th">the form</span>
+            below and we will contact you !
+          </p>
+          <div class="form-input">
+            <input type="text" name="text" placeholder="Full Name" />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+            <textarea
+              class="form-textarea"
+              row="3"
+              placeholder="Comment"
+            ></textarea>
+            <button class="btn-order" type="submit">Send</button>
+          </div>
+        </form>
       </div>
-      <div class="soc-block">
-        <p></p>
+      <div class="soc-networks">
+        <div class="photo-soc">
+          <picture>
+            <source
+              media="(min-width:1280px)"
+              srcset="img/order/picdes@1x.jpg 1x, img/order/picdes@2x.jpg 2x"
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="img/order/pictab@1x.jpg 1x, img/order/pictab@2x.jpg 2x"
+            />
+            <source
+              media="(max-width:767px)"
+              srcset="
+                img/order/Rectangle42473mob@1x.jpg 1x,
+                img/order/Rectangle42473mob@2x.jpg 2x
+              "
+            />
+            <img src="src/img/order/Rectangle42473mob@1x.jpg" alt="girl" />
+          </picture>
+        </div>
+        <div class="soc-block">
+          <p class="text-soc-block">Follow us on our social networks:</p>
+          <div class="soc-iteam">
+            <ul class="soc-iteam-list">
+              <li>
+                <a href="https://www.instagram.com/goitclub/" target="_blank"
+                  >Instagram <span class="text-1">/</span></a
+                >
+              </li>
+              <li class="fb">
+                <a href="https://www.facebook.com/goITclub/" target="_blank"
+                  >facebook<span class="text-1">/</span></a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/c/GoIT" target="_blank"
+                  >youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
