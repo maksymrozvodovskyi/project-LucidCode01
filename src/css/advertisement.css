@@ -1,3 +1,16 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .advertisement {
     padding: 80px 20px;
     margin: 0;
@@ -13,8 +26,7 @@
     width: 335px;
     height: 312px;
 }
-
-.acent {
+.advert-accent {
     width: 335px;
     height: 102px;
     display: block;
@@ -28,34 +40,41 @@
         padding: 100px 32px;
         
     }
-    .acent {
-        display: flex;
-        width: 675px;
-        height: 86px;
-        border-radius: 12px;
-        align-items: flex-end;
-    }
     .advert {
         font-size: 64px;
         line-height: 1;
         width: 704px;
         height: 288px;
     }
+    .advert-accent {
+        display: flex;
+        width: 675px;
+        height: 86px;
+        align-items: flex-end;
+    }
 }
 
 @media (min-width: 1280px) {
     .advertisement {
-        padding: 100px 100px;   
-    }
-    .acent {
-        text-align: center;
-        width: 808px;
-        height: 84px;
-        display: inline-block;
+        padding: 100px;   
     }
     .advert {
+        display: inline-block;
         font-size: 76px;
-        width: 1080px;
+        width: 1054px;
         height: 228px;
     }
+    .advert-accent {
+        display: inline-flex;
+        width: 809px;
+        height: 84px;
+        padding-top: 4px;
+        padding-left: 16px;
+        margin-left: -16px;
+    }
+    .advert-text {
+        padding-left: 16px;
+        margin-left: -16px;   
+    }
+    
 }
