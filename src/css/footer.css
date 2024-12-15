@@ -1,5 +1,4 @@
 .page-footer .link {
-  text-decoration: none;
   display: block;
   font-style: normal;
 }
@@ -26,6 +25,12 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .page-footer {
+    padding: 52px 0;
+  }
+}
+
 .page-footer .container {
   display: flex;
   flex-direction: column;
@@ -39,16 +44,28 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .page-footer .container {
+    padding: 0 100px;
+  }
+}
+
 /*logo-text*/
 .logo-text-container {
   display: flex;
   flex-direction: column;
+}
+
+.logo-text-container:not(last-child) {
   gap: 14px;
 }
 
 @media screen and (min-width: 768px) {
   .logo-text-container {
     max-width: 265px;
+    height: 104px;
+  }
+  .logo-text-container:not(last-child) {
     gap: 24px;
   }
 }
@@ -68,10 +85,8 @@
 
 .footer-text {
   color: #fbfbfb;
-  font-family: 'Inter Tight', sans-serif;
   font-size: 14px;
-  font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.43;
 }
 
 @media screen and (min-width: 768px) {
@@ -98,7 +113,8 @@
   .nav-and-contacts {
     flex-direction: row;
     justify-content: space-between;
-    gap: 121px;
+    gap: 0;
+    width: 565px;
   }
 }
 
@@ -113,6 +129,13 @@
   .footer-menu-and-contacts {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-menu-and-contacts {
+    gap: 0;
+    height: 144px;
   }
 }
 
@@ -132,11 +155,10 @@
 
 .menu-item .link {
   color: #fbfbfb;
-  font-family: 'Inter Tight', sans-serif;
   font-size: 32px;
   font-weight: 600;
   line-height: 1;
-  letter-spacing: -0.015em;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
 }
 
@@ -151,11 +173,12 @@
 @media screen and (min-width: 768px) {
   .contacts-list {
     gap: 24px;
+    min-width: 216px;
   }
 }
+
 .contact-item {
   color: #fbfbfb;
-  font-family: 'Inter Tight', sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.4;
@@ -178,15 +201,11 @@
   flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px) {
-}
-
 /*Privacy Policy*/
 .privacy-policy {
   display: flex;
   flex-direction: column;
   color: #d4bfc4;
-  font-family: 'Inter Tight', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.4;
