@@ -83,9 +83,14 @@ stroke: #fbfbfb;
     .burger-btn{
         display: none;
     }
+        .header-logo {
+           margin-left: 100px;
+        }
+
+        
         .header-nav {
             display: flex;
-            
+            margin-right: 100px;
             
         }
 
