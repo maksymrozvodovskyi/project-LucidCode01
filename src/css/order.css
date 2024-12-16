@@ -388,6 +388,7 @@ img {
     height: 56px;
   }
 }
+
 .text-1 {
   font-weight: 600;
   font-size: 18px;
@@ -396,4 +397,5 @@ img {
   text-transform: uppercase;
   color: #fbfbfb;
   padding-left: 8px;
+  cursor: default;
 }
