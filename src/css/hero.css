@@ -1,6 +1,10 @@
 /* #region Hero */
 .hero {
   min-width: 375px;
+    position: absolute;
+      
+   
+
 }
 .hero-container.container {
   padding: 0;
@@ -12,6 +16,7 @@
 @media only screen and (min-width: 1280px) {
   .hero-container {
     display: flex;
+    
   }
 }
 .hero-first-part {
@@ -45,6 +50,14 @@
   }
 }
 @media only screen and (min-width: 1280px) {
+  .hero {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 796px;
+      z-index: -1;
+    }
   .hero-title {
     max-width: 504px;
     margin-bottom: 128px;
@@ -66,6 +79,7 @@
 @media only screen and (min-width: 1280px) {
   .hero-desc {
     max-width: 470px;
+   
   }
 }
 .hero-second-part {
@@ -130,4 +144,7 @@
     }
   }
 }
+
+
+  
 /* #endregion */
