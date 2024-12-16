@@ -201,7 +201,7 @@ gap: 20px;
     height: 52px;
  }}
 
-    input:valid:focus {
+    input:valid:active {
      border: 2px solid #3CBC81;
      }
 
@@ -209,7 +209,7 @@ gap: 20px;
      border: 2px solid #E74A3B;
     }
 
-    input:focus {
+    input:focus, .form-textarea:focus{
      outline: none;
      border-color: #7A3145;
      }
