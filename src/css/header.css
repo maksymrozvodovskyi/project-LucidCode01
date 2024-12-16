@@ -86,6 +86,7 @@ stroke: #fbfbfb;
         .header-nav {
             display: flex;
             
+            
         }
 
   .header-page {
@@ -104,10 +105,16 @@ stroke: #fbfbfb;
  }
         
 .header-container {
+    
 height: 52px;
 }
 
+.header-nav{
+    margin-right: 100px;
+}
+
 .header-list {
+   
    align-items: center;
     display: flex;
     gap: 8px;
