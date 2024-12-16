@@ -190,7 +190,7 @@ gap: 20px;
         width: 428px;
     }}
 
- input{
+ input, .form-email{
      border: 1px solid #858585;
      border-radius: 30px;
      height: 48px;
@@ -201,11 +201,11 @@ gap: 20px;
     height: 52px;
  }}
 
-    .form-email:valid:active {
+    .form-email:valid {
      border: 2px solid #3CBC81;
      }
 
-     input:invalid:focus {
+     .form-email:invalid::after{
      border: 2px solid #E74A3B;
     }
 
