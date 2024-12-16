@@ -190,22 +190,23 @@ gap: 20px;
         width: 428px;
     }}
 
- input, .form-email{
+ input{
      border: 1px solid #858585;
      border-radius: 30px;
      height: 48px;
      padding-left: 16px;
  }
 
+
  @media screen and (min-width:768px) {input{
     height: 52px;
  }}
 
-    .form-email:valid {
+    .form-email:valid{
      border: 2px solid #3CBC81;
      }
 
-     .form-email:invalid::after{
+     .form-email:invalid:active{
      border: 2px solid #E74A3B;
     }
 
