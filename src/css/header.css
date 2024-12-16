@@ -85,12 +85,16 @@ stroke: #fbfbfb;
     }
         .header-logo {
            margin-left: 100px;
+          
         }
 
         
         .header-nav {
             display: flex;
             margin-right: 100px;
+          
+            
+           
             
         }
 
@@ -103,14 +107,14 @@ stroke: #fbfbfb;
         height: 52px;
     z-index: 1;
   min-width: 1280px;
-   padding-right: 100px;
-   padding-left: 100px;
+   /* padding-right: 100px;
+   padding-left: 100px; */
 
     padding-top: 32px;
  }
         
 .header-container {
-    
+   
 height: 52px;
 }
 
