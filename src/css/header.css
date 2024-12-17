@@ -10,6 +10,7 @@
   justify-content: space-between;
   align-items: center;
   display: flex;
+  width: 100%;
 }
 
 .header-logo {
@@ -84,20 +85,19 @@
 
   .header-page {
     background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    height: 52px;
     z-index: 1;
     padding-right: 0px;
     padding-left: 0px;
-
-    padding-top: 32px;
+    padding-top: 0;
+    position: relative;
   }
 
   .header-container {
     height: 52px;
+    position: absolute;
+    top: 32px;
+    left: 0;
   }
 
   .header-nav {

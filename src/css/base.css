@@ -2,8 +2,7 @@ body {
   font-family: 'Inter Tight', sans-serif;
 }
 
-html,
-body {
+html {
   scroll-behavior: smooth;
 }
 
