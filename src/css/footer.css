@@ -197,11 +197,6 @@
   color: #fbfbfb;
 }
 
-.address-point {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 /*Privacy Policy*/
 .privacy-policy {
   display: flex;
