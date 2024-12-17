@@ -18,25 +18,34 @@
       href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" crossorigin href="/project-LucidCode01/assets/index-CFVnFs1s.css">
+    <link rel="stylesheet" crossorigin href="/project-LucidCode01/assets/index-_2pnA8kQ.css">
   </head>
   <body>
     <header class="header-page">
-  <div class="container header-container">   
-  <a class="header-logo" href="#"><svg class="header-icon" width="168" height="16">
-    <use href="../public/icons.svg#icon-logo"></use>
-  </svg></a>
-  <nav class="header-nav">
-<ul class="header-list">
-  <li class="header-item"><a class="header-link" href="#">How It Works</a></li>
-  <li class="header-item"><a class="header-link" href="#">Vegetables</a></li> 
-  <li class="header-item"><a class="header-link" href="#">Reviews</a></li>
-</ul>
-<button class="header-button" type="button">Shop now</button>
-</nav>
-  <button class="burger-btn" type="button" data-menu-open><svg class="burger-icon" width="32" height="32">
-    <use href="../public/icons.svg#icon-burger"></use>
-  </svg></button>
+  <div class="container header-container">
+    <a class="header-logo" href="#"
+      ><svg class="header-icon" width="168" height="16">
+        <use href="../public/icons.svg#icon-logo"></use></svg
+    ></a>
+    <nav class="header-nav">
+      <ul class="header-list">
+        <li class="header-item">
+          <a class="header-link" href="#">How It Works</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#vegetables">Vegetables</a>
+        </li>
+        <li class="header-item">
+          <a class="header-link" href="#reviews">Reviews</a>
+        </li>
+      </ul>
+      <button class="header-button" type="button">Shop now</button>
+    </nav>
+    <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger-icon" width="32" height="32">
+        <use href="../public/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
   </div>
 </header>
 
@@ -238,7 +247,7 @@
   </div>
 </section>
 
-      <section class="container reviews-container">
+      <section class="container reviews-container" id="reviews">
   <h2 class="reviews-title">
     reviews from our <span class="reviews-title-part">customers</span>
   </h2>
@@ -411,13 +420,13 @@
         <nav class="footer-nav">
           <ul class="footer-menu">
             <li class="menu-item">
-              <a href="how-it-works" class="link">how it works</a>
+              <a href="#how-it-works" class="link">how it works</a>
             </li>
             <li class="menu-item">
-              <a href="vegetables" class="link">vegetables</a>
+              <a href="#vegetables" class="link">vegetables</a>
             </li>
             <li class="menu-item">
-              <a href="reviews" class="link">reviews</a>
+              <a href="#reviews" class="link">reviews</a>
             </li>
           </ul>
         </nav>
@@ -437,7 +446,8 @@
     </div>
     <div class="privacy-policy">
       <div class="priv-links">
-        <a>Privacy Policy</a><span>/</span><a>Cookie settings</a>
+        <a href="#">Privacy Policy</a><span>/</span
+        ><a href="#">Cookie settings</a>
       </div>
       <p class="ghyear">©Green Harvest 2023</p>
     </div>
