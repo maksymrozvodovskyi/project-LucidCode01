@@ -82,11 +82,9 @@
 .second-window {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     background-color: #576F35;
     color: #FBFBFB;
     padding: 80px 20px;
-    font-family: Inter Tight;
     gap: 40px;
 }
 
@@ -105,36 +103,37 @@
     }
 }
 
-.second-window-top {
-    width: 100%;
-}
-
-.steps-text-one {
+.steps-title {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 28px;
     font-weight: 600;
     line-height: 1;
     letter-spacing: -0.015em;
-    text-align: left;
 }
 
 @media only screen and (min-width: 768px) {
-    .steps-text-one {
+    .steps-title {
         margin-bottom: 24px;
+        font-size: 32px;
     }
 }
 
-.steps-text-accent {
+.steps-title-accent {
     color: #D4BFC4;
 }
 
-.steps-text-two {
-    margin-bottom: auto;
+.steps-text {
     font-size: 14px;
-    font-weight: 500;
     line-height: 1.43;
     letter-spacing: 0em;
+}
+
+@media only screen and (min-width: 768px) {
+   .steps-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }
 
 .steps-list {
@@ -144,23 +143,67 @@
     gap: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .steps-list {
+    gap: 24px;
+  }
+}
+
 .steps-item {
     background-color: #FBFBFB;
     color: #858585;
-    padding: 12px 24px;
-    border-radius: 15px;
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     padding-right: auto;
+    border-radius: 15px;
     display: flex;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.67;
-    letter-spacing: -0.02em;
-    display: flex;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0em;
     align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .steps-item {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+.first-text {
+    width: 208px;
+}
+
+@media only screen and (min-width: 768px) {
+  .first-text {
+    width: 325px;
+  }
+}
+
+.second-text {
+    width: 176px;
+}
+
+@media only screen and (min-width: 768px) {
+    .second-text {
+        width: 323px;
+    }
+}
+
+.third-text {
+    width: 211px;
+}
+
+@media only screen and (min-width: 768px) {
+    .third-text {
+        width: 323px;
+    }
 }
 
 .steps-item-accent {
     color: #141414;
+    font-weight: 700;
 }
 
 .steps-item::before {
