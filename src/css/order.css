@@ -1,4 +1,4 @@
-.order {
+/* .order {
   min-width: 375px;
 }
 @media screen and (min-width: 768px) {
@@ -11,7 +11,7 @@
   .order {
     min-width: 1280px;
   }
-}
+} */
 
 .order.container {
   padding: 0;
@@ -44,6 +44,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -52,6 +53,7 @@
     width: 640px;
     height: 276px;
     align-items: start;
+    margin-bottom: 52px;
   }
 }
 
@@ -95,36 +97,39 @@
     line-height: 1.25;
   }
 }
-
-.form-connect {
-  margin-top: 40px;
-  width: 335px;
-  margin-bottom: 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .form-connect {
-    margin-top: 52px;
-    width: 640px;
-    margin-bottom: 32px;
-  }
+.form-soc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 @media screen and (min-width: 768px) {
   .form-soc {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    gap: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .form-soc {
-    display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 32px;
   }
 }
+.form-connect {
+  /* margin-top: 40px; */
+  width: 335px;
+  /* margin-bottom: 20px; */
+}
+
+@media screen and (min-width: 768px) {
+  .form-connect {
+    /* margin-top: 52px; */
+    width: 640px;
+    /* margin-bottom: 32px; */
+  }
+}
+
 .form-feedback {
   border-radius: 30px;
   padding: 40px 20px;
@@ -134,16 +139,16 @@
 @media screen and (min-width: 768px) {
   .form-feedback {
     padding: 72px 100px;
-    width: 640px;
-    height: 632px;
+    /* width: 640px; */
+    /* height: 632px; */
   }
 }
 
 @media screen and (min-width: 1280px) {
   .form-feedback {
     padding: 52px 48px;
-    width: 524px;
-    height: 592px;
+    /* width: 524px;
+    height: 592px; */
   }
 }
 .form-desc {
@@ -164,21 +169,23 @@
 @media screen and (min-width: 768px) {
   .form-desc {
     font-size: 32px;
+    width: 430px;
   }
 }
 
 .form-input {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 295px;
+  /* gap: 16px; */
+  width: 100%;
+  /* width: 295px; */
   height: 292px;
   margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .form-input {
-    width: 440px;
+    /* width: 440px; */
     height: 308px;
     margin-top: 52px;
   }
@@ -186,7 +193,7 @@
 
 @media screen and (min-width: 1280px) {
   .form-input {
-    width: 428px;
+    /* width: 428px; */
   }
 }
 
@@ -202,12 +209,19 @@ input {
     height: 52px;
   }
 }
-
-.form-email:valid {
+.form-email {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.form-email:not(:placeholder-shown):valid {
   border: 2px solid #3cbc81;
 }
 
-.form-email:invalid:active {
+/* .form-email:invalid:active {
+  border: 2px solid #e74a3b;
+} */
+
+.form-email:not(:placeholder-shown):invalid {
   border: 2px solid #e74a3b;
 }
 
@@ -225,10 +239,12 @@ input:focus,
   overflow: hidden;
   padding-left: 16px;
   padding-top: 16px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 768px) {
   .form-textarea {
     height: 96px;
+    margin-bottom: 24px;
   }
 }
 
@@ -278,12 +294,14 @@ textarea::placeholder {
   text-transform: uppercase;
   color: #fbfbfb;
   border: none;
+  /* margin-top: 20px; */
 }
 @media screen and (min-width: 768px) {
   .btn-order {
     border-radius: 30px;
     width: 440px;
     height: 52px;
+    /* margin-top: 24px; */
   }
 }
 
@@ -299,7 +317,7 @@ textarea::placeholder {
   width: 335px;
   height: 456px;
   background-color: #7a3145;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -307,7 +325,7 @@ textarea::placeholder {
     padding: 52px;
     width: 640px;
     height: 528px;
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 }
 
@@ -363,15 +381,15 @@ img {
   }
 }
 .soc-iteam {
-  width: calc((100% - 23px) / 2);
+  /* width: calc((100% - 23px) / 2); */
 }
 
 .soc-iteam-list {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 295px;
-  height: 48px;
+  width: 100%;
+  /* height: 48px; */
   gap: 8px;
   font-weight: 600;
   font-size: 18px;
@@ -384,11 +402,10 @@ img {
 @media screen and (min-width: 768px) {
   .soc-iteam-list {
     flex-wrap: nowrap;
-    width: 492px;
-    height: 56px;
+    /* width: 492px;
+    height: 56px; */
   }
 }
-
 .text-1 {
   font-weight: 600;
   font-size: 18px;
