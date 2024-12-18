@@ -141,17 +141,11 @@
   margin: 0 auto;
 }
 
-.menu-item {
-  height: 44px;
-  width: 118px;
-}
-
 .menu-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
 
   font-weight: 500;
   font-size: 14px;
