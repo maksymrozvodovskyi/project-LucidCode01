@@ -30,7 +30,7 @@
     <nav class="header-nav">
       <ul class="header-list">
         <li class="header-item">
-          <a class="header-link" href="#">How It Works</a>
+          <a class="header-link" href="#how-it-works">How It Works</a>
         </li>
         <li class="header-item">
           <a class="header-link" href="#vegetables">Vegetables</a>
@@ -59,7 +59,9 @@
     </svg>
   </button>
   <ul class="menu-list">
-    <li class="menu-item"><a class="menu-link" href="">How It Works</a></li>
+    <li class="menu-item">
+      <a class="menu-link" href="#how-it-works">How It Works</a>
+    </li>
     <li class="menu-item">
       <a class="menu-link" href="#vegetables">Vegetables</a>
     </li>
@@ -83,39 +85,65 @@
   </div>
 </section>
 
-      <section class="steps-section">
+      <section class="steps-section" id="how-it-works">
   <div class="container steps">
     <div class="first-window">
       <h2 class="visually-hidden">How it works</h2>
       <picture>
-        <source media="(min-width: 1280px)" srcset="../img/steps/steps_desk@1x.jpg 1x, ../img/steps/steps_desk@2x.jpg 2x" />
-        <source media="(min-width: 768px)" srcset="../img/steps/steps_tab@1x.jpg 1x, ../img/steps/steps_tab@2x.jpg 2x" />
-        <source media="(max-width: 767px)" srcset="../img/steps/steps_mob@1x.jpg 1x, ../img/steps/steps_mob@2x.jpg 2x" />
-        <img class="steps-img" src="../img/steps/steps_mob@1x.jpg" alt="a woman cuts an apple" width="640"
-          height="640" />
+        <source
+          media="(min-width: 1280px)"
+          srcset="../img/steps/steps_desk@1x.jpg 1x, ../img/steps/steps_desk@2x.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="../img/steps/steps_tab@1x.jpg 1x, ../img/steps/steps_tab@2x.jpg 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="../img/steps/steps_mob@1x.jpg 1x, ../img/steps/steps_mob@2x.jpg 2x"
+        />
+        <img
+          class="steps-img"
+          src="../img/steps/steps_mob@1x.jpg"
+          alt="a woman cuts an apple"
+          width="640"
+          height="640"
+        />
       </picture>
     </div>
     <div class="second-window">
       <div class="second-window-top">
-        <h3 class="steps-title">To order your <span class="steps-title-accent">vegetable</span> basket, simply follow
-          these <span class="steps-title-accent">easy steps</span></h3>
-        <p class="steps-text">Our baskets are assembled with care and delivered straight to your doorstep, so you
-          can enjoy the taste of
-          fresh fruit
-          without ever leaving your home.</p>
+        <h3 class="steps-title">
+          To order your
+          <span class="steps-title-accent">vegetable</span> basket, simply
+          follow these <span class="steps-title-accent">easy steps</span>
+        </h3>
+        <p class="steps-text">
+          Our baskets are assembled with care and delivered straight to your
+          doorstep, so you can enjoy the taste of fresh fruit without ever
+          leaving your home.
+        </p>
       </div>
       <ol class="steps-list">
         <li class="steps-item">
-          <p class="steps-item-text first-text">Just choose <span class="steps-item-accent">the vegetable</span> you want to order
-            by clicking on the checkboxes <span class="steps-item-accent">next to it</span>.</p>
-        </li>
-        <li class="steps-item">
-          <p class="steps-item-text second-text">Click on <span class="steps-item-accent">the basket</span> and fill out the form.
+          <p class="steps-item-text first-text">
+            Just choose <span class="steps-item-accent">the vegetable</span> you
+            want to order by clicking on the checkboxes
+            <span class="steps-item-accent">next to it</span>.
           </p>
         </li>
         <li class="steps-item">
-          <p class="steps-item-text third-text">Sit back and relax! Your <span class="steps-item-accent">fresh vegetables</span>
-            basket will be delivered.</p>
+          <p class="steps-item-text second-text">
+            Click on <span class="steps-item-accent">the basket</span> and fill
+            out the form.
+          </p>
+        </li>
+        <li class="steps-item">
+          <p class="steps-item-text third-text">
+            Sit back and relax! Your
+            <span class="steps-item-accent">fresh vegetables</span> basket will
+            be delivered.
+          </p>
         </li>
       </ol>
     </div>
@@ -374,19 +402,28 @@
             below and we will contact you !
           </p>
           <div class="form-input">
-            <input type="text" name="text" placeholder="Full Name" />
+            <input
+              type="text"
+              name="text"
+              placeholder="Full Name"
+              autocomplete="name"
+            />
             <input
               class="form-email"
               type="email"
               name="email"
+              id="email"
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               required
+              autocomplete="email"
             />
             <textarea
               class="form-textarea"
-              row="3"
               placeholder="Comment"
+              id="user-comment"
+              name="user-comment"
+              autocomplete="off"
             ></textarea>
             <button class="btn-order" type="submit">Send</button>
           </div>
