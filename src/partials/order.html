@@ -20,19 +20,28 @@
             below and we will contact you !
           </p>
           <div class="form-input">
-            <input type="text" name="text" placeholder="Full Name" />
+            <input
+              type="text"
+              name="text"
+              placeholder="Full Name"
+              autocomplete="name"
+            />
             <input
               class="form-email"
               type="email"
               name="email"
+              id="email"
               placeholder="Email"
               pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               required
+              autocomplete="email"
             />
             <textarea
               class="form-textarea"
-              row="3"
               placeholder="Comment"
+              id="user-comment"
+              name="user-comment"
+              autocomplete="off"
             ></textarea>
             <button class="btn-order" type="submit">Send</button>
           </div>

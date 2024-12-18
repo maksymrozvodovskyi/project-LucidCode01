@@ -1,18 +1,3 @@
-/* .order {
-  min-width: 375px;
-}
-@media screen and (min-width: 768px) {
-  .order {
-    min-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .order {
-    min-width: 1280px;
-  }
-} */
-
 .order.container {
   padding: 0;
 }
@@ -117,16 +102,12 @@
   }
 }
 .form-connect {
-  /* margin-top: 40px; */
   width: 335px;
-  /* margin-bottom: 20px; */
 }
 
 @media screen and (min-width: 768px) {
   .form-connect {
-    /* margin-top: 52px; */
     width: 640px;
-    /* margin-bottom: 32px; */
   }
 }
 
@@ -139,16 +120,12 @@
 @media screen and (min-width: 768px) {
   .form-feedback {
     padding: 72px 100px;
-    /* width: 640px; */
-    /* height: 632px; */
   }
 }
 
 @media screen and (min-width: 1280px) {
   .form-feedback {
     padding: 52px 48px;
-    /* width: 524px;
-    height: 592px; */
   }
 }
 .form-desc {
@@ -176,24 +153,15 @@
 .form-input {
   display: flex;
   flex-direction: column;
-  /* gap: 16px; */
   width: 100%;
-  /* width: 295px; */
   height: 292px;
   margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .form-input {
-    /* width: 440px; */
     height: 308px;
     margin-top: 52px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .form-input {
-    /* width: 428px; */
   }
 }
 
@@ -216,10 +184,6 @@ input {
 .form-email:not(:placeholder-shown):valid {
   border: 2px solid #3cbc81;
 }
-
-/* .form-email:invalid:active {
-  border: 2px solid #e74a3b;
-} */
 
 .form-email:not(:placeholder-shown):invalid {
   border: 2px solid #e74a3b;
@@ -294,14 +258,12 @@ textarea::placeholder {
   text-transform: uppercase;
   color: #fbfbfb;
   border: none;
-  /* margin-top: 20px; */
 }
 @media screen and (min-width: 768px) {
   .btn-order {
     border-radius: 30px;
     width: 440px;
     height: 52px;
-    /* margin-top: 24px; */
   }
 }
 
@@ -317,7 +279,6 @@ textarea::placeholder {
   width: 335px;
   height: 456px;
   background-color: #7a3145;
-  /* margin-top: 20px; */
 }
 
 @media screen and (min-width: 768px) {
@@ -325,7 +286,6 @@ textarea::placeholder {
     padding: 52px;
     width: 640px;
     height: 528px;
-    /* margin-top: 32px; */
   }
 }
 
@@ -381,7 +341,6 @@ img {
   }
 }
 .soc-iteam {
-  /* width: calc((100% - 23px) / 2); */
 }
 
 .soc-iteam-list {
@@ -389,7 +348,6 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  /* height: 48px; */
   gap: 8px;
   font-weight: 600;
   font-size: 18px;
@@ -402,8 +360,6 @@ img {
 @media screen and (min-width: 768px) {
   .soc-iteam-list {
     flex-wrap: nowrap;
-    /* width: 492px;
-    height: 56px; */
   }
 }
 .text-1 {
