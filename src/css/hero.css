@@ -11,7 +11,6 @@
 }
 @media only screen and (min-width: 1280px) {
   .hero {
-    position: relative;
     z-index: -1;
   }
   .hero-container {
