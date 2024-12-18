@@ -1,0 +1,125 @@
+/* Styles for Mobile devices */
+/* #region reviews-mobile */
+.reviews-container {
+  min-width: 375px;
+  padding: 80px 20px;
+  background-color: #fbfbfb;
+}
+.reviews-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+  margin-bottom: 20px;
+}
+.reviews-title-part {
+  color: #576f35;
+}
+.reviews-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #141414;
+  margin-bottom: 40px;
+}
+.reviews-container-item {
+  border: 1px solid #d4bfc4;
+  border-radius: 24px;
+  padding: 20px 16px;
+  width: 335px;
+  height: 228px;
+}
+.reviews-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.reviews-img {
+  margin-bottom: 24px;
+}
+.reviews-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #141414;
+  margin-bottom: 8px;
+  align-items: baseline;
+}
+.reviews-subtitle-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #858585;
+  width: 288px;
+}
+.items2,
+.items3 {
+  display: none;
+}
+/* #endregion */
+
+/* Styles for Tablet devices */
+/* #region reviews-tablet */
+@media only screen and (min-width: 768px) {
+  .reviews-container {
+    padding: 100px 32px;
+  }
+  .items2 {
+    display: flex;
+    justify-content: center;
+  }
+  .reviews-title {
+    font-size: 64px;
+    line-height: 1;
+    max-width: 553px;
+    margin-bottom: 24px;
+  }
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+    max-width: 553px;
+    margin-bottom: 52px;
+  }
+  .reviews-subtitle-text {
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: baseline;
+  }
+  .reviews-container-item {
+    padding: 20px;
+  }
+  .reviews-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+  }
+  .reviews-container-item {
+    width: calc((100% - 24px) / 2);
+    height: 248px;
+  }
+}
+/* #endregion */
+
+/* Styles for Desktop devices */
+/* #region reviews-desktop */
+@media only screen and (min-width: 1280px) {
+  .reviews-container {
+    padding: 100px 100px;
+  }
+  .items3 {
+    display: flex;
+    justify-content: center;
+  }
+  .reviews-container-item {
+    width: calc((100% - 2 * 24px) / 3);
+    height: 248px;
+  }
+}
+/* #endregion */
