@@ -4,6 +4,7 @@
 }
 .hero-container.container {
   padding: 0;
+  background-color: #576f35;
 }
 @media only screen and (min-width: 768px) {
   .hero-container {
@@ -15,9 +16,9 @@
   }
 }
 .hero-first-part {
-  background-color: #576f35;
-  padding: 100px 20px 40px;
+  padding: 48px 20px 40px;
 }
+
 @media only screen and (min-width: 768px) {
   .hero-first-part {
     padding: 120px 32px 52px;
@@ -25,7 +26,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .hero-first-part {
-    padding: 232px 36px 52px 100px;
+    padding: 232px 38px 52px 100px;
     max-width: 50%;
   }
 }
