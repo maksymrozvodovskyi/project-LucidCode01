@@ -14,21 +14,14 @@
 .container.steps {
   display: flex;
   flex-direction: column;
-  max-width: 375px;
+  min-width: 375px;
   padding: 0;
   margin: 0 auto;
-}
-
-@media only screen and (min-width: 768px) {
-  .container.steps {
-    max-width: 768px;
-  }
 }
 
 @media only screen and (min-width: 1280px) {
   .container.steps {
     flex-direction: row;
-    max-width: 1280px;
   }
 }
 
