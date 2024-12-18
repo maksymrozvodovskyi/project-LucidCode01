@@ -5,6 +5,7 @@
 
 .hero-container.container {
   padding: 0;
+  background-color: #576f35;
 }
 
 @media only screen and (min-width: 1280px) {
