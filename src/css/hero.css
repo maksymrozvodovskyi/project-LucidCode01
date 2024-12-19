@@ -2,24 +2,17 @@
 .hero {
   min-width: 375px;
 }
-
 .hero-container.container {
   padding: 0;
   background-color: #576f35;
 }
-
 @media only screen and (min-width: 1280px) {
-  .hero {
-    z-index: -1;
-  }
-
   .hero-container {
     display: flex;
   }
 }
 .hero-first-part {
-  background-color: #576f35;
-  padding: 48px 20px 40px;
+  padding: 100px 20px 40px;
 }
 
 @media only screen and (min-width: 768px) {
