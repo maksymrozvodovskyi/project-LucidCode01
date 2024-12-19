@@ -264,6 +264,7 @@ textarea::placeholder {
   text-transform: uppercase;
   color: #fbfbfb;
   border: none;
+  transition: background-color 0.5s cubic-bezier(0.42, 0, 0.58, 1);
  
 }
 @media screen and (min-width: 768px) {
@@ -283,7 +284,7 @@ textarea::placeholder {
 {.btn-order:focus,
   .btn-order:hover{
   background-color:#d4bfc4;
-
+  color: #7a3145;
 }
   
 }
@@ -376,6 +377,7 @@ img {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  transition: background-color 0.5s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
 @media screen and (min-width:768px) {
