@@ -1,4 +1,3 @@
-
 .order.container {
   padding: 0;
 }
@@ -6,7 +5,6 @@
 .container-order {
   padding: 80px 20px;
   width: 375px;
-  height: 1536px;
   background-color: #576f35;
 }
 
@@ -14,7 +12,6 @@
   .container-order {
     padding: 100px 32px 100px 32px;
     width: 768px;
-    height: 1720px;
   }
 }
 
@@ -22,7 +19,6 @@
   .container-order {
     padding: 100px;
     width: 1280px;
-    height: 1036px;
   }
 }
 
@@ -37,7 +33,6 @@
   .order-part {
     gap: 24px;
     width: 640px;
-    height: 276px;
     align-items: start;
     margin-bottom: 52px;
   }
@@ -46,7 +41,6 @@
 @media screen and (min-width: 1280px) {
   .order-part {
     width: 751px;
-    height: 192px;
     padding-left: 0;
   }
 }
@@ -272,9 +266,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) {
   .btn-order {
-    border-radius: 30px;
     width: 440px;
-    height: 52px;
   }
 }
 
@@ -284,36 +276,29 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width:768px) 
-{.btn-order:focus,
-  .btn-order:hover{
-  background-color:#d4bfc4;
-  color: #7a3145;
-}
-  
+@media screen and (min-width: 768px) {
+  .btn-order:focus,
+  .btn-order:hover {
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
 }
 
 .soc-networks {
   border-radius: 30px;
   padding: 40px 20px;
-  width: 335px;
-  height: 456px;
   background-color: #7a3145;
 }
 
 @media screen and (min-width: 768px) {
   .soc-networks {
     padding: 52px;
-    width: 640px;
-    height: 528px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .soc-networks {
     padding: 52px 48px;
-    width: 524px;
-    height: 592px;
   }
 }
 
@@ -323,14 +308,12 @@ img {
 
 .photo-soc {
   width: 295px;
-  height: 272px;
   margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .photo-soc {
     width: 536px;
-    height: 316px;
     margin-bottom: 52px;
   }
 }
@@ -338,7 +321,6 @@ img {
 @media screen and (min-width: 1280px) {
   .photo-soc {
     width: 428px;
-    height: 352px;
     margin-bottom: 80px;
   }
 }
@@ -348,7 +330,7 @@ img {
   font-size: 14px;
   line-height: 1.43;
   color: #d4bfc4;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
@@ -362,7 +344,6 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
   gap: 8px;
   font-weight: 600;
   font-size: 18px;
