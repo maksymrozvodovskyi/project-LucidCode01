@@ -1,7 +1,7 @@
 .header-page {
-  background-color: #576f35;
   min-width: 375px;
-  padding-top: 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .header-container {
@@ -10,10 +10,12 @@
   align-items: center;
   display: flex;
   width: 100%;
+  position: absolute;
+  top: 20px;
+  left: 0;
 }
 
 .header-logo {
-  width: 168px;
   margin-left: 20px;
 }
 
@@ -25,6 +27,20 @@
   padding: 0;
   margin: 0;
   fill: #fbfbfb;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .header-icon:hover,
+  .header-icon:focus {
+    fill: #d4bfc4;
+  }
+}
+
+@media not (hover: hover) {
+  .header-icon:active {
+    fill: #d4bfc4;
+  }
 }
 
 .burger-btn {
@@ -39,18 +55,29 @@
   margin: 0;
   padding: 0;
   stroke: #fbfbfb;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .burger-icon:hover,
+  .burger-icon:focus {
+    stroke: #d4bfc4;
+  }
+}
+
+@media not (hover: hover) {
+  .burger-icon:active {
+    stroke: #d4bfc4;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   .header-page {
     min-width: 768px;
-    padding-top: 32px;
   }
-  .header-container {
-  }
+
   .header-logo {
     margin-right: 32px;
-    width: 216px;
   }
   .header-icon {
     width: 216px;
@@ -80,17 +107,13 @@
   .header-page {
     background-color: transparent;
     width: 100%;
-    z-index: 1;
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 0;
-    position: relative;
   }
 
   .header-container {
-    position: absolute;
-    top: 32px;
-    left: 0;
+    height: 52px;
   }
 
   .header-nav {
@@ -116,6 +139,7 @@
     color: #fbfbfb;
     transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .header-button {
     display: block;
     border: none;
@@ -135,38 +159,23 @@
 }
 
 @media not (hover: hover) {
-  .header-button:hover,
-  .header-button:focus {
-    color: #7a3145;
-    background-color: #d4bfc4;
-  }
-
   .header-button:active {
-    background-color: #fbfbfb;
-  }
-
-  .header-link:hover,
-  .header-link:focus {
-    border: none;
-    color: #7a3145;
     background-color: #d4bfc4;
+    color: #7a3145;
   }
 
   .header-link:active {
     border: none;
-    background-color: #fbfbfb;
+    background-color: #d4bfc4;
+    color: #7a3145;
   }
 }
 
-@media only screen and (min-width: 1280px) and (hover: hover) {
+@media (hover: hover) {
   .header-button:hover,
   .header-button:focus {
     color: #7a3145;
     background-color: #d4bfc4;
-  }
-
-  .header-button:active {
-    background-color: #fbfbfb;
   }
 
   .header-link:hover,
@@ -174,10 +183,5 @@
     border: none;
     color: #7a3145;
     background-color: #d4bfc4;
-  }
-
-  .header-link:active {
-    border: none;
-    background-color: #fbfbfb;
   }
 }

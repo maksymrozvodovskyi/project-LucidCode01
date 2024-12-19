@@ -3,20 +3,11 @@
   font-style: normal;
 }
 
-.page-footer ul {
-  padding: 0;
-  margin: 0;
-}
-
-.page-footer p {
-  padding: 0;
-  margin: 0;
-}
-
 /*footer*/
 .page-footer {
   background-color: #7a3145;
   padding: 40px 0;
+  min-width: 375px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -63,7 +54,6 @@
 @media screen and (min-width: 768px) {
   .logo-text-container {
     max-width: 265px;
-    height: 104px;
   }
   .logo-text-container:not(last-child) {
     gap: 24px;
@@ -74,6 +64,20 @@
   fill: #fbfbfb;
   width: 168px;
   height: 16px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .footer-logo .icon:hover,
+  .footer-logo .icon:focus {
+    fill: #d4bfc4;
+  }
+}
+
+@media not (hover: hover) {
+  .footer-logo .icon:active {
+    fill: #d4bfc4;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -135,7 +139,6 @@
 @media screen and (min-width: 1280px) {
   .footer-menu-and-contacts {
     gap: 0;
-    height: 144px;
   }
 }
 
@@ -153,13 +156,27 @@
   }
 }
 
-.menu-item .link {
+.footer-menu-item .link {
   color: #fbfbfb;
   font-size: 32px;
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .footer-menu-item .link:hover,
+  .footer-menu-item .link:focus {
+    color: #d4bfc4;
+  }
+}
+
+@media not (hover: hover) {
+  .footer-menu-item .link:active {
+    color: #d4bfc4;
+  }
 }
 
 /*contacts*/
@@ -195,23 +212,52 @@
 
 .contact-item .link {
   color: #fbfbfb;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .contact-item .link:hover,
+  .contact-item .link:focus {
+    color: #d4bfc4;
+  }
+}
+
+@media not (hover: hover) {
+  .contact-item .link:active {
+    color: #d4bfc4;
+  }
 }
 
 /*Privacy Policy*/
 .privacy-policy {
   display: flex;
   flex-direction: column;
-  color: #d4bfc4;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.43;
   row-gap: 16px;
   margin-top: 80px;
+  color: #d4bfc4;
 }
 
 .priv-links {
   display: flex;
   gap: 8px;
+  color: #d4bfc4;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .priv-links .link:hover,
+  .priv-links .link:focus {
+    color: #141414;
+  }
+}
+
+@media not (hover: hover) {
+  .priv-links .link:active {
+    color: #141414;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -222,8 +268,4 @@
     justify-content: space-between;
     flex-direction: row;
   }
-}
-
-.menu-item {
-  width: 228px;
 }

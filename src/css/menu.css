@@ -32,17 +32,19 @@
   width: 100%;
   height: 100%;
   background-color: #576f35;
-  padding: 296px 20px 52px 20px;
+  padding-top: 296px;
+  padding-bottom: 52px;
 
   display: flex;
   flex-direction: column;
+  align-items: center;
 
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
   z-index: 999;
   transform: translateX(100%);
-  transition: 300ms ease-in;
+  transition: 250ms ease-in;
   transition-property: transform;
 }
 
@@ -58,10 +60,7 @@
   .modal {
     right: 0;
     margin-left: auto;
-
     width: 351px;
-    height: 100%;
-
     padding: 360px 32px 48px 32px;
   }
 }
@@ -141,18 +140,12 @@
   margin: 0 auto;
 }
 
-.menu-item {
-  height: 44px;
-}
-
 .menu-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  width: 118px;
 
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.4;
   text-align: center;
@@ -187,7 +180,6 @@
 }
 
 .menu-bt {
-  height: 52px;
   width: 175px;
 
   border: none;
@@ -205,8 +197,9 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
-
-  margin: auto auto 0;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @media (hover: hover) {
@@ -219,7 +212,7 @@
 }
 
 @media not (hover: hover) {
-  .menu-bn:active {
+  .menu-bt:active {
     background-color: #fbfbfb;
     color: #7a3145;
     border: 1px solid #fbfbfb;
@@ -229,9 +222,7 @@
 /* Tablet sreen */
 @media only screen and (min-width: 768px) {
   .menu-bt {
-    height: 52px;
     width: 157px;
-
     padding: 16px 30px;
   }
 }
