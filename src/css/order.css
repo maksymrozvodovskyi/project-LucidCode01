@@ -370,14 +370,14 @@ img {
 }
 
 @media (hover: hover) {
-  .soc-link:hover,
-  .soc-link:focus {
+  .order-link-soc:hover,
+  .order-link-soc:focus {
     color: #d4bfc4;
   }
 }
 
 @media not (hover: hover) {
-  .soc-link:active {
+  .order-link-soc:active {
     color: #d4bfc4;
   }
 }
