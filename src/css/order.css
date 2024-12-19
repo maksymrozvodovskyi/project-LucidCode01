@@ -41,6 +41,7 @@
 @media screen and (min-width: 1280px) {
   .order-part {
     width: 751px;
+    height: 191px;
     padding-left: 0;
   }
 }
