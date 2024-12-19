@@ -18,8 +18,6 @@
 }
 
 .header-logo {
-  width: 168px;
-
   margin-left: 20px;
 }
 
@@ -72,7 +70,6 @@
 
   .header-logo {
     margin-right: 32px;
-    width: 216px;
   }
   .header-icon {
     width: 216px;
