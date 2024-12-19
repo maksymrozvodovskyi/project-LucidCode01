@@ -6,12 +6,10 @@
 
 .header-container {
   padding: 0;
-
   justify-content: space-between;
   align-items: center;
   display: flex;
   width: 100%;
-
   position: absolute;
   top: 20px;
   left: 0;
@@ -34,7 +32,12 @@
 
 @media (hover: hover) {
   .header-icon:hover,
-  .header-icon:focus,
+  .header-icon:focus {
+    fill: #d4bfc4;
+  }
+}
+
+@media not (hover: hover) {
   .header-icon:active {
     fill: #d4bfc4;
   }
@@ -57,7 +60,12 @@
 
 @media (hover: hover) {
   .burger-icon:hover,
-  .burger-icon:focus,
+  .burger-icon:focus {
+    stroke: #d4bfc4;
+  }
+}
+
+@media not (hover: hover) {
   .burger-icon:active {
     stroke: #d4bfc4;
   }
@@ -123,7 +131,6 @@
     border-radius: 12px;
     padding: 12px;
     min-width: 118px;
-
     background-color: transparent;
     font-weight: 500;
     font-size: 16px;
@@ -140,7 +147,6 @@
     border-radius: 30px;
     padding: 16px 32px;
     min-width: 157px;
-
     font-weight: 600;
     font-size: 18px;
     line-height: 1.11;
@@ -153,38 +159,23 @@
 }
 
 @media not (hover: hover) {
-  .header-button:hover,
-  .header-button:focus {
-    color: #7a3145;
-    background-color: #d4bfc4;
-  }
-
   .header-button:active {
-    background-color: #fbfbfb;
-  }
-
-  .header-link:hover,
-  .header-link:focus {
-    border: none;
-    color: #7a3145;
     background-color: #d4bfc4;
+    color: #7a3145;
   }
 
   .header-link:active {
     border: none;
-    background-color: #fbfbfb;
+    background-color: #d4bfc4;
+    color: #7a3145;
   }
 }
 
-@media only screen and (min-width: 1280px) and (hover: hover) {
+@media (hover: hover) {
   .header-button:hover,
   .header-button:focus {
     color: #7a3145;
     background-color: #d4bfc4;
-  }
-
-  .header-button:active {
-    background-color: #fbfbfb;
   }
 
   .header-link:hover,
@@ -192,10 +183,5 @@
     border: none;
     color: #7a3145;
     background-color: #d4bfc4;
-  }
-
-  .header-link:active {
-    border: none;
-    background-color: #fbfbfb;
   }
 }
