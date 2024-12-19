@@ -76,6 +76,11 @@
     min-width: 768px;
   }
 
+    .header-container {
+      top: 32px;
+     
+    }
+
   .header-logo {
     margin-right: 32px;
   }
@@ -112,9 +117,7 @@
     padding-top: 0;
   }
 
-  .header-container {
-    height: 52px;
-  }
+ 
 
   .header-nav {
     margin-right: 100px;
