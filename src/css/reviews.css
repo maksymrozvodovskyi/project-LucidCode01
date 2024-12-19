@@ -1,6 +1,7 @@
 /* Styles for Mobile devices */
 /* #region reviews-mobile */
 .reviews-container {
+  min-width: 375px;
   padding: 80px 20px;
   background-color: #fbfbfb;
 }

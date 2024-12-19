@@ -60,7 +60,6 @@
     margin-left: auto;
 
     width: 351px;
-    height: 100%;
 
     padding: 360px 32px 48px 32px;
   }
@@ -141,16 +140,11 @@
   margin: 0 auto;
 }
 
-.menu-item {
-  height: 44px;
-}
-
 .menu-link {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
 
   font-weight: 500;
   font-size: 14px;
@@ -187,7 +181,6 @@
 }
 
 .menu-bt {
-  height: 52px;
   width: 175px;
 
   border: none;
@@ -229,9 +222,7 @@
 /* Tablet sreen */
 @media only screen and (min-width: 768px) {
   .menu-bt {
-    height: 52px;
     width: 157px;
-
     padding: 16px 30px;
   }
 }

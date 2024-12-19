@@ -4,8 +4,8 @@
     font-family: "Inter Tight", sans-serif;
 }
 
-.section-vegetables .container {
-  padding: 0 20px;
+.section-vegetables.container {
+    min-width: 375px;
 }
 
 .vegetables-title {
