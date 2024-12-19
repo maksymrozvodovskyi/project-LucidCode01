@@ -9,11 +9,9 @@
   text-transform: uppercase;
   color: #141414;
   width: 335px;
-  height: 312px;
 }
 .advert-accent {
   width: 335px;
-  height: 102px;
   display: block;
   color: #fbfbfb;
   background-color: #576f35;
@@ -28,13 +26,12 @@
     font-size: 64px;
     line-height: 1;
     width: 704px;
-    height: 288px;
   }
   .advert-accent {
     display: flex;
     width: 675px;
-    height: 86px;
     align-items: flex-end;
+    height: 86px;
   }
 }
 
@@ -45,13 +42,12 @@
   .advert {
     font-size: 76px;
     width: 1054px;
-    height: 228px;
   }
   .advert-accent {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     width: 815px;
-    height: 84px;
     padding-left: 16px;
     margin-left: -20px;
   }
