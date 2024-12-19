@@ -46,6 +46,7 @@
   .advert-accent {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     width: 815px;
     padding-left: 16px;
     margin-left: -20px;
