@@ -41,7 +41,6 @@
 @media screen and (min-width: 1280px) {
   .order-part {
     width: 751px;
-    height: 191px;
     padding-left: 0;
   }
 }
@@ -192,6 +191,10 @@ input {
 
 .form-email:not(:placeholder-shown):invalid {
   border: 2px solid #e74a3b;
+}
+
+.form-text:not(:placeholder-shown) {
+  border: 2px solid #3cbc81;
 }
 
 input:focus,
