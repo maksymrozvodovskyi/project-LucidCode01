@@ -1,12 +1,10 @@
-.order.container {
-  padding: 0;
-}
+
 
 .container-order {
-  padding: 80px 20px;
-  width: 375px;
   height: 1536px;
   background-color: #576f35;
+  min-width: 375px;
+    padding: 80px 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -30,6 +28,7 @@
   flex-direction: column;
   gap: 20px;
   margin-bottom: 40px;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -178,7 +177,13 @@ input {
   height: 48px;
   padding-left: 16px;
 }
+.form-text:not(:placeholder-shown):valid {
+  border: 2px solid #3cbc81;
+}
 
+.form-text:not(:placeholder-shown):invalid {
+  border: 2px solid #e74a3b;
+}
 @media screen and (min-width: 768px) {
   input {
     height: 52px;
@@ -266,6 +271,7 @@ textarea::placeholder {
   text-transform: uppercase;
   color: #fbfbfb;
   border: none;
+ 
 }
 
 @media screen and (min-width: 768px) {
@@ -281,7 +287,21 @@ textarea::placeholder {
     width: 428px;
   }
 }
+@media screen and (min-width:768px) 
+{.btn-order:focus,
+  .btn-order:hover{
+  background-color:#d4bfc4;
 
+}
+  
+}
+
+@media screen and (min-width:768px) 
+{.btn-order{
+cursor: pointer;
+}
+  
+}
 .soc-networks {
   border-radius: 30px;
   padding: 40px 20px;
@@ -360,6 +380,16 @@ img {
   text-transform: uppercase;
   color: #fbfbfb;
 }
+
+@media screen and (min-width:768px) {
+  .soc-link:hover,
+  .soc-link:focus {
+    color: #d4bfc4;
+    cursor: pointer;
+  }
+  
+}
+
 
 @media screen and (min-width: 768px) {
   .soc-iteam-list {
