@@ -8,6 +8,11 @@
   margin: 0 auto;
 }
 
+.background {
+  min-width: 375px;
+  margin: 0 auto;
+}
+
 .vegetables-title {
   font-weight: 600;
   font-size: 48px;
