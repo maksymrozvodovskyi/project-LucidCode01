@@ -5,21 +5,21 @@
 
 .container-order {
   padding: 80px 20px;
-  width: 375px;
+  min-width: 375px;
   background-color: #576f35;
 }
 
 @media screen and (min-width: 768px) {
   .container-order {
     padding: 100px 32px 100px 32px;
-    width: 768px;
+    width: auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container-order {
     padding: 100px;
-    width: 1280px;
+    width: auto;
   }
 }
 
