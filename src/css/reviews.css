@@ -116,5 +116,6 @@
 
 .fix {
   background-color: #fbfbfb;
+  min-width: 375px;
 }
 /* #endregion */
