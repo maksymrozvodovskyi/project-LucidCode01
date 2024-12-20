@@ -1,125 +1,123 @@
 .section-vegetables {
-    background: #7a3145;
-    padding: 80px 0;
-    font-family: "Inter Tight", sans-serif;
+  background: #7a3145;
+  padding: 80px 0;
+  font-family: 'Inter Tight', sans-serif;
 }
 
 .section-vegetables.container {
-    min-width: 375px;
+  min-width: 375px;
 }
 
 .vegetables-title {
-        
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 1.08;
-        letter-spacing: -0.01em;
-        text-transform: uppercase;
-        color: #fbfbfb;
-        margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  margin-bottom: 20px;
 }
 
 .vegetables-title-diff {
-    color: #d4bfc4;
-    display: block;
+  color: #d4bfc4;
+  display: block;
 }
 
 .vegetables-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #fbfbfb;
-    margin-bottom: 40px;
-    max-width: 335px;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #fbfbfb;
+  margin-bottom: 40px;
+  max-width: 335px;
 }
 
 .vegetables-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .vegetables-item {
-    border-radius: 40px;
-    padding: 32px 24px;
-    background: #fbfbfb;
+  border-radius: 40px;
+  padding: 32px 24px;
+  background: #fbfbfb;
 }
 
 .content-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .vegetables-subtitle {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
-    color: #7a3145;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #7a3145;
 }
 
 .content-wrapper .vegetables-text {
-    color: #141414;
-    margin: 0;
+  color: #141414;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .section-vegetables {
-            padding: 100px 0;
-    }
+  .section-vegetables {
+    padding: 100px 0;
+  }
 
-    .section-vegetables .container {
-        padding: 0 32px;
-    }
+  .section-vegetables .container {
+    padding: 0 32px;
+  }
 
-        .vegetables-title {
-            font-size: 64px;
-            line-height: 1;
-            margin-bottom: 24px;
-        }
+  .vegetables-title {
+    font-size: 64px;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
 
-        .vegetables-text {
-            font-size: 16px;
-            line-height: 1.25;
-            margin-bottom: 52px;
-            max-width: 626px;
-        }
+  .vegetables-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 52px;
+    max-width: 626px;
+  }
 
-        .vegetables-list {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            gap: 28px 24px;
-        }
+  .vegetables-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 28px 24px;
+  }
 
-        .vegetables-item {
-            width: calc((100% - 24px) / 2);
-            padding: 32px 30px;
-        }
+  .vegetables-item {
+    width: calc((100% - 24px) / 2);
+    padding: 32px 30px;
+  }
 
-        .vegetables-subtitle {
-            font-size: 32px;
-        }
+  .vegetables-subtitle {
+    font-size: 32px;
+  }
 
-        .content-wrapper .vegetables-text {
-            color: #141414;
-            margin: 0;
-        }
+  .content-wrapper .vegetables-text {
+    color: #141414;
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .section-vegetables {
-        padding: 100px 0;
-    }
+  .section-vegetables {
+    padding: 100px 0;
+  }
 
-    .section-vegetables .container {
-        padding: 0 100px;
-    }
+  .section-vegetables .container {
+    padding: 0 100px;
+  }
 
-    .vegetables-item {
-        width: calc((100% - 48px) / 3);
-        padding: 32px;
-    }
+  .vegetables-item {
+    width: calc((100% - 48px) / 3);
+    padding: 32px;
+  }
 }

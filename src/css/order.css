@@ -34,7 +34,6 @@
   .order-part {
     gap: 24px;
     width: 640px;
-    align-items: start;
     margin-bottom: 52px;
   }
 }
@@ -75,7 +74,6 @@
 
 @media screen and (min-width: 768px) {
   .order-desc {
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -89,7 +87,6 @@
 
 @media screen and (min-width: 768px) {
   .form-soc {
-    display: flex;
     align-items: center;
     gap: 32px;
   }
@@ -157,13 +154,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 292px;
   margin-top: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .form-input {
-    height: 308px;
     margin-top: 52px;
   }
 }
@@ -319,20 +314,17 @@ img {
 }
 
 .photo-soc {
-  width: 295px;
   margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .photo-soc {
-    width: 536px;
     margin-bottom: 52px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .photo-soc {
-    width: 428px;
     margin-bottom: 80px;
   }
 }
