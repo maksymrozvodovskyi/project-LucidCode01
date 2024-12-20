@@ -10,8 +10,15 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-.container.steps {
+.background-left {
+  background-color: #7a3145;
+  width: 100%;
+}
+.background-right {
+  background-color: #576f35;
+  width: 100%;
+}
+.steps {
   display: flex;
   flex-direction: column;
   min-width: 375px;
@@ -20,8 +27,9 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container.steps {
+  .steps {
     flex-direction: row;
+    justify-content: center;
   }
 }
 
@@ -30,7 +38,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #7a3145;
+  /* background-color: #7a3145; */
   padding: 40px 20px;
 }
 
@@ -44,6 +52,7 @@
   .first-window {
     width: 640px;
     padding: 100px;
+    margin-right: 0;
   }
 }
 
@@ -70,7 +79,7 @@
 .second-window {
   display: flex;
   flex-direction: column;
-  background-color: #576f35;
+  /* background-color: #576f35; */
   color: #fbfbfb;
   padding: 80px 20px;
   gap: 40px;
@@ -88,6 +97,7 @@
     width: 640px;
     padding: 100px;
     gap: 104px;
+    margin-left: 0;
   }
 }
 
