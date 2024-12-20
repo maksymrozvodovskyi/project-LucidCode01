@@ -3,7 +3,6 @@
 .reviews-container {
   min-width: 375px;
   padding: 80px 20px;
-  background-color: #fbfbfb;
 }
 .reviews-title {
   font-weight: 600;
@@ -113,5 +112,9 @@
   .reviews-item {
     width: calc((100% - 2 * 24px) / 3);
   }
+}
+
+.fix {
+  background-color: #fbfbfb;
 }
 /* #endregion */
