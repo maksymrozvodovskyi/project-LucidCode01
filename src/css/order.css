@@ -1,6 +1,12 @@
 .order.container {
-  padding: 0;
   margin: 0 auto;
+  padding: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+  .order.container {
+    padding: 0 100px;
+  }
 }
 
 .container-order {
@@ -18,7 +24,7 @@
 
 @media screen and (min-width: 1280px) {
   .container-order {
-    padding: 100px;
+    padding: 100px 0;
     width: auto;
   }
 }
@@ -98,6 +104,7 @@
 .form-soc {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
 }
 
