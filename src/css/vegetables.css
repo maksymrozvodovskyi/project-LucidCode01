@@ -1,11 +1,11 @@
 .section-vegetables {
   background: #7a3145;
   padding: 80px 0;
-  font-family: 'Inter Tight', sans-serif;
 }
 
 .section-vegetables.container {
   min-width: 375px;
+  margin: 0 auto;
 }
 
 .vegetables-title {

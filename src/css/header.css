@@ -127,18 +127,19 @@
   }
 
   .header-link {
-    border: 1px solid #fbfbfb;
+    border: 1px solid;
     border-radius: 12px;
     padding: 12px;
     background-color: transparent;
     line-height: 1.25;
     text-align: center;
     color: #fbfbfb;
-    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color, border-color,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-button {
-    border: none;
+    border: 1px solid transparent;
     margin-left: 20px;
     border-radius: 30px;
     padding: 16px 32px;
@@ -149,34 +150,33 @@
     text-transform: uppercase;
     color: #fbfbfb;
     background-color: #7a3145;
-    transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-
-@media not (hover: hover) {
-  .header-button:active {
-    background-color: #d4bfc4;
-    color: #7a3145;
-  }
-
-  .header-link:active {
-    border: none;
-    background-color: #d4bfc4;
-    color: #7a3145;
-  }
-}
-
-@media (hover: hover) {
-  .header-button:hover,
-  .header-button:focus {
-    color: #7a3145;
-    background-color: #d4bfc4;
+    transition: background-color, border-color,
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-link:hover,
   .header-link:focus {
-    border: none;
+    border-color: #d4bfc4;
     color: #7a3145;
     background-color: #d4bfc4;
+  }
+
+  .header-link:active {
+    border-color: #d4bfc4;
+    background-color: #d4bfc4;
+    color: #7a3145;
+  }
+
+  .header-button:hover,
+  .header-button:focus {
+    border-color: #d4bfc4;
+    color: #7a3145;
+    background-color: #d4bfc4;
+  }
+
+  .header-button:active {
+    border-color: #d4bfc4;
+    background-color: #d4bfc4;
+    color: #7a3145;
   }
 }
