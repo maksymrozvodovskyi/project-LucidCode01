@@ -1,14 +1,16 @@
 /* #region Hero */
 .hero {
   min-width: 375px;
-}
-.hero-container.container {
-  padding: 0;
   background-color: #576f35;
 }
 @media only screen and (min-width: 1280px) {
   .hero-container {
     display: flex;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-first-part.container {
+    margin-right: 0;
   }
 }
 .hero-first-part {
