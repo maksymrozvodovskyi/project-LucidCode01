@@ -1,6 +1,8 @@
 .advertisement {
   padding: 80px 20px;
+  background-color: #fbfbfb;
 }
+
 .advert {
   font-weight: 600;
   font-size: 48px;
@@ -9,7 +11,10 @@
   text-transform: uppercase;
   color: #141414;
   width: 335px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
 }
+
 .advert-accent {
   width: 335px;
   display: block;
