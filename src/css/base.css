@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
   position: absolute;
   width: 1px;
   height: 1px;
